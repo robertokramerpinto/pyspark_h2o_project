@@ -1,7 +1,7 @@
-from src.etl import create_sample_dataset
+from src.etl import etl
 
 if __name__ == '__main__':
 
-    data = create_sample_dataset()
+    data = etl.create_sample_dataset()
     print("Sample data created")
     print(data.shape)
